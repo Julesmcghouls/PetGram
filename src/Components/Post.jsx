@@ -16,7 +16,7 @@ function Post() {
 
         </div>
         <div>
-            <img id="post-img" src={postImage} alt="post image" /><WaylonPost />
+            <img id="post-img" src={postImage} alt="post image" />
             <LikeButton />
         </div>
         </>
