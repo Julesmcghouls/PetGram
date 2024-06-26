@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-const emptyHeartImage = "https://img.icons8.com/emoji/48/000000/heart-emoji.png"
-const filledHeartImage = "https://img.icons8.com/emoji/48/000000/heart-emoji.png"
+const emptyHeartImage = "♡";
+
+const filledHeartImage = "♥";
 
 function LikeButton() {
     const [likes, setLikes] = useState(0);
