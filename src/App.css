@@ -20,7 +20,7 @@ body{
   font-weight: bold;
   margin: 0;
   display: flex;
-  place-items: center
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -73,6 +73,33 @@ body{
 
 .like-button > img {
   width: 75px;
+}
+
+.like-info > p {
+  width: 75px;
+  text-align: left;
+}
+
+#follow-button {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  width: 87px;
+  cursor: pointer;
+}
+
+.following {
+  background-color: hsl(240, 3%, 94%);
+  color: gray;
+}
+
+.not-following {
+  background-color: #40a9ff;
+  color: #fff;
+}
+
+#post-img {
+  height: 470px;
 }
 
 
