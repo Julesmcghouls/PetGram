@@ -12,6 +12,8 @@ setHeartCount(heartCount - 1);
 setHeartCount(heartCount + 1);
 }
 setIsLiked(!isLiked);
+
+
 };
 
 const heartImageSrc = isLiked ? "./public/filledHeart.png" : "./public/emptyHeart.png";
