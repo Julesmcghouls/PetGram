@@ -102,4 +102,22 @@ body{
   height: 470px;
 }
 
+.home {
+  text-align: center;
+}
 
+.pet-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-card {
+  margin: 10px;
+  width: 300px;
+}
+
+.pet-card img {
+  width: 100%;
+  height: auto;
+}
